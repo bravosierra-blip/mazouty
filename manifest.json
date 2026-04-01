@@ -1,0 +1,17 @@
+{
+  "name": "Mazouty",
+  "short_name": "Mazouty",
+  "description": "Les meilleurs prix de carburant au Maroc",
+  "start_url": "/app",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0B6E4F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230B6E4F'/><text x='50' y='65' text-anchor='middle' font-size='50' fill='white'>⛽</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

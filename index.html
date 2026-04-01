@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0B6E4F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Mazouty</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--green:#0B6E4F;--green-light:#E8F5EE;--green-dark:#064A35;--amber:#E8A317;--amber-light:#FFF4D6;--red:#D93025;--gray-50:#F8F7F5;--gray-100:#EEEDEB;--gray-200:#D5D4D0;--gray-300:#A3A29E;--gray-600:#5F5E5A;--gray-800:#2C2C2A;--gray-900:#1A1A18;--white:#FFF;--shadow:0 2px 12px rgba(0,0,0,0.08);--radius:14px;--radius-sm:10px;--font:'DM Sans',system-ui,sans-serif;--font-mono:'Space Mono',monospace;--bottom-nav:64px}
+body{font-family:var(--font);background:var(--gray-50);color:var(--gray-900);overflow:hidden;height:100dvh;width:100vw;position:fixed}
+.screen{position:absolute;inset:0;bottom:var(--bottom-nav);transition:transform .35s cubic-bezier(.4,0,.2,1),opacity .35s;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.screen.hidden{transform:translateX(100%);opacity:0;pointer-events:none}
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;height:var(--bottom-nav);background:var(--white);border-top:1px solid var(--gray-100);display:flex;z-index:1000;padding-bottom:env(safe-area-inset-bottom)}
+.nav-item{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:10px;color:var(--gray-300);cursor:pointer;font-weight:500;-webkit-tap-highlight-color:transparent}
+.nav-item.active{color:var(--green)}
+.nav-item svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#map{width:100%;height:100%}
+.leaflet-control-zoom{border:none!important;box-shadow:var(--shadow)!important;border-radius:var(--radius-sm)!important;overflow:hidden}
+.leaflet-control-zoom a{width:36px!important;height:36px!important;line-height:36px!important;font-size:18px!important;color:var(--gray-800)!important;border:none!important}
+.leaflet-popup-content-wrapper{border-radius:var(--radius)!important;box-shadow:var(--shadow)!important}
+.leaflet-popup-content{margin:14px!important}
+.sp{font-family:var(--font);min-width:240px}.sp .brand{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--green);margin-bottom:2px}.sp .name{font-size:15px;font-weight:700;margin-bottom:2px}.sp .address{font-size:11px;color:var(--gray-300);margin-bottom:8px;line-height:1.3}.sp .prices{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:6px}
+.sp .ptag{padding:4px 8px;border-radius:6px;font-size:12px;font-weight:600;display:flex;align-items:center;gap:4px}.sp .ptag .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}.sp .ptag.gasoil{background:var(--amber-light);color:#8B6914}.sp .ptag.sp95{background:var(--green-light);color:var(--green-dark)}.sp .ptag.gpl{background:#E8E0F5;color:#5B3E9E}.sp .ptag.none{background:var(--gray-100);color:var(--gray-300);font-weight:400;font-size:11px}
+.sp .fresh-info{font-size:10px;color:var(--gray-300);margin-bottom:8px}.sp .fresh-info .fi{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:3px}
+.sp .actions{display:flex;gap:6px}.sp .actions button{flex:1;padding:8px 4px;border:none;border-radius:8px;font-family:var(--font);font-size:11px;font-weight:600;cursor:pointer}
+.sp .btn-nav{background:var(--gray-100);color:var(--gray-800)}.sp .btn-add{background:var(--green);color:white}.sp .btn-confirm{background:var(--green-light);color:var(--green-dark)}
+.sort-bar{position:absolute;bottom:70px;left:12px;right:12px;z-index:900;display:flex;gap:6px;justify-content:center}
+.sort-btn{padding:7px 14px;border-radius:20px;font-size:11px;font-weight:600;border:1.5px solid var(--gray-200);color:var(--gray-600);cursor:pointer;background:var(--white);box-shadow:var(--shadow);white-space:nowrap;transition:all .2s}
+.sort-btn.active{background:var(--green);color:white;border-color:var(--green)}
+.locate-btn{position:absolute;bottom:120px;right:14px;z-index:900;width:44px;height:44px;border-radius:50%;background:var(--white);border:none;box-shadow:var(--shadow);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.locate-btn svg{width:20px;height:20px;stroke:var(--green);fill:none;stroke-width:2}
+.search-bar{position:absolute;top:14px;left:14px;right:14px;z-index:900;background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);display:flex;align-items:center;padding:0 14px;height:46px}
+.search-bar svg{width:18px;height:18px;stroke:var(--gray-300);fill:none;stroke-width:2;flex-shrink:0}
+.search-bar input{flex:1;border:none;outline:none;font-family:var(--font);font-size:14px;padding:0 10px;background:transparent}
+.search-bar input::placeholder{color:var(--gray-200)}
+.header{padding:16px 20px 12px;background:var(--white);border-bottom:1px solid var(--gray-100)}.header h1{font-size:20px;font-weight:700}.header .subtitle{font-size:13px;color:var(--gray-300);margin-top:2px}
+.contribute-form{padding:20px}.form-group{margin-bottom:18px}.form-group label{display:block;font-size:12px;font-weight:600;color:var(--gray-600);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.form-group input{width:100%;padding:12px 14px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);font-family:var(--font);font-size:15px;transition:border-color .2s;background:var(--white)}
+.form-group input:focus{outline:none;border-color:var(--green)}
+.price-inputs{display:flex;gap:10px}
+.price-input-group{flex:1}.price-input-group .fuel-label{font-size:11px;font-weight:600;padding:3px 8px;border-radius:5px;display:inline-block;margin-bottom:6px}
+.price-input-group.gasoil .fuel-label{background:var(--amber-light);color:#8B6914}.price-input-group.sp95 .fuel-label{background:var(--green-light);color:var(--green-dark)}.price-input-group.gpl .fuel-label{background:#E8E0F5;color:#5B3E9E}
+.price-input-group input{font-family:var(--font-mono);font-size:18px;font-weight:700;text-align:center;padding:14px 8px}
+.photo-upload{border:2px dashed var(--gray-200);border-radius:var(--radius);padding:24px;text-align:center;cursor:pointer;position:relative;overflow:hidden}
+.photo-upload svg{width:32px;height:32px;stroke:var(--gray-300);fill:none;stroke-width:1.5;margin-bottom:6px}.photo-upload p{font-size:13px;color:var(--gray-300)}
+.photo-upload img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:12px}.photo-upload input{display:none}
+.btn-submit{width:100%;padding:16px;border:none;border-radius:var(--radius);background:var(--green);color:white;font-family:var(--font);font-size:16px;font-weight:700;cursor:pointer;letter-spacing:.3px}
+.btn-submit:active{transform:scale(.97)}.btn-submit:disabled{background:var(--gray-200);cursor:not-allowed}
+.station-selector{background:var(--gray-50);border-radius:var(--radius);padding:14px;margin-bottom:18px;display:flex;align-items:center;gap:12px;cursor:pointer;border:1.5px solid var(--gray-200)}
+.station-selector .brand-dot{width:10px;height:10px;border-radius:50%;background:var(--green);flex-shrink:0}
+.station-selector .info{flex:1}.station-selector .info .sname{font-size:14px;font-weight:600}.station-selector .info .saddr{font-size:12px;color:var(--gray-300)}
+.station-selector svg{width:16px;height:16px;stroke:var(--gray-300);fill:none;stroke-width:2;flex-shrink:0}
+.leaderboard-list{padding:0 20px}
+.leader-item{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--gray-100)}
+.leader-rank{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0}
+.leader-rank.top1{background:var(--amber);color:white}.leader-rank.top2{background:var(--gray-200);color:var(--gray-800)}.leader-rank.top3{background:#C48A5A;color:white}.leader-rank.normal{background:var(--gray-100);color:var(--gray-600)}
+.leader-info{flex:1}.leader-info .lname{font-size:14px;font-weight:600}.leader-info .lstats{font-size:12px;color:var(--gray-300)}
+.leader-points{font-family:var(--font-mono);font-size:16px;font-weight:700;color:var(--green)}
+.profile-card{margin:20px;padding:24px;background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow)}
+.profile-avatar{width:56px;height:56px;border-radius:50%;background:var(--green);color:white;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;margin-bottom:12px}
+.profile-name{font-size:20px;font-weight:700;margin-bottom:4px}.profile-email{font-size:13px;color:var(--gray-300);margin-bottom:16px}
+.profile-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.stat-box{text-align:center;padding:12px;background:var(--gray-50);border-radius:var(--radius-sm)}.stat-box .sval{font-family:var(--font-mono);font-size:20px;font-weight:700;color:var(--green)}.stat-box .slabel{font-size:11px;color:var(--gray-300);margin-top:2px}
+.auth-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 24px;background:var(--white)}
+.auth-logo{font-family:var(--font-mono);font-size:28px;font-weight:700;color:var(--green);margin-bottom:4px}
+.auth-tagline{font-size:14px;color:var(--gray-300);margin-bottom:32px}
+.auth-form{width:100%;max-width:340px}.auth-form .form-group{margin-bottom:14px}
+.auth-toggle{text-align:center;margin-top:16px;font-size:13px;color:var(--gray-300)}.auth-toggle a{color:var(--green);font-weight:600;cursor:pointer}
+.toast{position:fixed;top:20px;left:50%;transform:translateX(-50%) translateY(-100px);z-index:9999;padding:12px 20px;border-radius:var(--radius-sm);font-size:14px;font-weight:600;box-shadow:0 8px 30px rgba(0,0,0,0.15);transition:transform .4s cubic-bezier(.4,0,.2,1);white-space:nowrap;max-width:90vw}
+.toast.show{transform:translateX(-50%) translateY(0)}.toast.success{background:var(--green);color:white}.toast.error{background:var(--red);color:white}.toast.info{background:var(--gray-800);color:white}
+.points-pop{position:fixed;z-index:9998;font-family:var(--font-mono);font-size:24px;font-weight:700;color:var(--green);pointer-events:none;animation:popUp .8s ease-out forwards}
+@keyframes popUp{0%{opacity:1;transform:translateY(0) scale(1)}100%{opacity:0;transform:translateY(-60px) scale(1.3)}}
+.loading-overlay{position:fixed;inset:0;z-index:9999;background:var(--white);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .4s}
+.loading-overlay.hide{opacity:0;pointer-events:none}
+.loading-spinner{width:36px;height:36px;border:3px solid var(--gray-100);border-top-color:var(--green);border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-text{margin-top:12px;font-size:14px;color:var(--gray-300)}
+</style>
+</head>
+<body>
+<div class="loading-overlay" id="loadingOverlay"><div class="loading-spinner"></div><div class="loading-text">Mazouty</div></div>
+<div class="toast" id="toast"></div>
+
+<div class="screen" id="screenMap">
+<div class="search-bar"><svg><line x1="11" y1="11" x2="16.65" y2="16.65"/><circle cx="8" cy="8" r="7"/></svg><input type="text" id="searchInput" placeholder="Chercher une station..."></div>
+<div id="map"></div>
+<button class="locate-btn" onclick="locateMe()"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></button>
+<div class="sort-bar">
+<button class="sort-btn active" onclick="setSort('distance',this)">Plus proches</button>
+<button class="sort-btn" onclick="setSort('price_gasoil',this)">Gasoil - cher</button>
+<button class="sort-btn" onclick="setSort('price_sp95',this)">SP95 - cher</button>
+</div>
+</div>
+
+<div class="screen hidden" id="screenContribute">
+<div class="header"><h1>Renseigner un prix</h1><div class="subtitle">Gagnez des points en partageant les prix</div></div>
+<div class="contribute-form">
+<div class="station-selector" id="stationSelector" onclick="pickStation()"><div class="brand-dot"></div><div class="info"><div class="sname">Sélectionner une station</div><div class="saddr">Appuyez pour choisir</div></div><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></div>
+<div class="price-inputs">
+<div class="price-input-group gasoil"><div class="fuel-label">Gasoil</div><input type="number" id="priceGasoil" placeholder="0.00" step="0.01" min="0" max="30" inputmode="decimal"></div>
+<div class="price-input-group sp95"><div class="fuel-label">SP95</div><input type="number" id="priceSp95" placeholder="0.00" step="0.01" min="0" max="30" inputmode="decimal"></div>
+<div class="price-input-group gpl"><div class="fuel-label">GPL</div><input type="number" id="priceGpl" placeholder="0.00" step="0.01" min="0" max="30" inputmode="decimal"></div>
+</div>
+<div class="form-group" style="margin-top:18px"><label>Photo du panneau</label>
+<div class="photo-upload" id="photoUpload" onclick="document.getElementById('photoInput').click()">
+<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg><p>Prendre une photo</p>
+<input type="file" id="photoInput" accept="image/*" capture="environment" onchange="previewPhoto(this)">
+</div></div>
+<button class="btn-submit" id="btnSubmit" onclick="submitPrices()">Enregistrer les prix</button>
+</div></div>
+
+<div class="screen hidden" id="screenLeaderboard"><div class="header"><h1>Classement</h1><div class="subtitle">Les meilleurs contributeurs</div></div><div class="leaderboard-list" id="leaderboardList"></div></div>
+
+<div class="screen hidden" id="screenProfile"><div class="header"><h1>Mon profil</h1></div><div id="profileContent"></div></div>
+
+<div class="screen hidden" id="screenAuth" style="bottom:0">
+<div class="auth-screen"><div class="auth-logo">Mazouty</div><div class="auth-tagline">Les meilleurs prix, par la communauté</div>
+<div class="auth-form">
+<div class="form-group"><label>Nom d'utilisateur</label><input type="text" id="authUsername" placeholder="votre pseudo"></div>
+<div class="form-group" id="authEmailGroup" style="display:none"><label>Email</label><input type="email" id="authEmail" placeholder="votre@email.com"></div>
+<div class="form-group"><label>Mot de passe</label><input type="password" id="authPassword" placeholder="min 6 caractères"></div>
+<button class="btn-submit" onclick="handleAuth()">Se connecter</button>
+<div class="auth-toggle"><span id="authToggleText">Pas encore de compte ?</span> <a onclick="toggleAuth()"><span id="authToggleLink">S'inscrire</span></a></div>
+</div></div></div>
+
+<nav class="bottom-nav">
+<div class="nav-item active" onclick="go('screenMap')"><svg viewBox="0 0 24 24"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg><span>Carte</span></div>
+<div class="nav-item" onclick="go('screenContribute')"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg><span>Contribuer</span></div>
+<div class="nav-item" onclick="go('screenLeaderboard')"><svg viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg><span>Classement</span></div>
+<div class="nav-item" onclick="go('screenProfile')"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Profil</span></div>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const API=window.location.origin;
+let map,markers=[],allStations=[],currentUser=null,authToken=null,isReg=false,selectedStation=null,photoFile=null,userLat=33.5731,userLon=-7.5898,sortBy='distance';
+
+window.onload=async()=>{authToken=localStorage.getItem('token');if(authToken){try{currentUser=await api('/auth/me')}catch{authToken=null;localStorage.removeItem('token')}}initMap();await loadStations();document.getElementById('loadingOverlay').classList.add('hide');document.getElementById('searchInput').addEventListener('input',e=>filter(e.target.value));if(navigator.geolocation){navigator.geolocation.getCurrentPosition(p=>{userLat=p.coords.latitude;userLon=p.coords.longitude;map.setView([userLat,userLon],14);L.circle([userLat,userLon],{radius:50,color:'#0B6E4F',fillOpacity:0.3}).addTo(map);loadNearby()},()=>{},{})}};
+
+async function api(p,o={}){const h={'Content-Type':'application/json',...o.headers};if(authToken)h['Authorization']=`Bearer ${authToken}`;const r=await fetch(API+p,{...o,headers:h});const d=await r.json();if(!r.ok)throw new Error(d.detail||'Erreur');return d}
+
+function initMap(){map=L.map('map',{zoomControl:false}).setView([userLat,userLon],13);L.control.zoom({position:'bottomleft'}).addTo(map);L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{maxZoom:19}).addTo(map)}
+
+function bColor(b){return{'Afriquia':'#2E7D32','Shell':'#DD1D21','TotalEnergies':'#004A97','Winxo':'#FF6F00','Ola Energy':'#7B1FA2','Petromin':'#1565C0','ZIZ':'#388E3C','Yoom':'#00897B','Petrom':'#0288D1','INOV':'#D81B60','Petrofan':'#E65100','Petrofib':'#4E342E','Appollo':'#6A1B9A','Top Petrol':'#546E7A','Somap':'#2E7D32'}[b]||'#757575'}
+
+function mkIcon(brand,hasP,fresh){const c=bColor(brand);const op=hasP?1:0.4;const rc=fresh==='fresh'?'#2E7D32':fresh==='recent'?'#E8A317':fresh==='old'?'#D93025':'none';
+return L.divIcon({className:'',iconSize:[30,38],iconAnchor:[15,38],popupAnchor:[0,-38],html:`<svg width="30" height="38" viewBox="0 0 30 38"><path d="M15 0C6.7 0 0 6.7 0 15c0 11.2 15 23 15 23s15-11.8 15-23C30 6.7 23.3 0 15 0z" fill="${c}" opacity="${op}"/>${rc!=='none'?`<circle cx="15" cy="14" r="8" fill="none" stroke="${rc}" stroke-width="2.5"/>`:''}<circle cx="15" cy="14" r="5.5" fill="white" opacity="0.9"/><text x="15" y="17" text-anchor="middle" font-size="8" font-weight="700" fill="${c}">⛽</text></svg>`})}
+
+async function loadStations(){try{const d=await api('/stations?limit=200');allStations=d.stations;render(allStations)}catch(e){toast('Erreur chargement','error')}}
+
+async function loadNearby(){try{const d=await api(`/stations/nearby?lat=${parseFloat(userLat).toFixed(4)}&lon=${parseFloat(userLon).toFixed(4)}&radius_km=15&limit=200&sort_by=${sortBy}`);if(d.stations.length>0){allStations=d.stations;render(allStations)}}catch(e){console.log('loadNearby:',e)}}
+
+function render(list){markers.forEach(m=>map.removeLayer(m));markers=[];list.forEach(s=>{const p=s.latest_prices;const has=p&&Object.keys(p).length>0;const fr=has?Object.values(p)[0].freshness:'none';const m=L.marker([s.latitude,s.longitude],{icon:mkIcon(s.brand,has,fr)}).addTo(map);m.bindPopup(()=>popup(s),{maxWidth:280});markers.push(m)})}
+
+function popup(s){const p=s.latest_prices||{};let pr='';['gasoil','sp95','gpl'].forEach(t=>{if(p[t]){const f=p[t].freshness;pr+=`<span class="ptag ${t}"><span class="dot" style="background:${f==='fresh'?'#2E7D32':f==='recent'?'#E8A317':'#D93025'}"></span>${p[t].price} Dh</span>`}});if(!pr)pr='<span class="ptag none">Aucun prix</span>';
+let fi='';const fp=Object.values(p)[0];if(fp){const fl=fp.freshness==='fresh'?"Aujourd'hui":fp.freshness==='recent'?'Cette semaine':'> 1 semaine';fi=`<div class="fresh-info"><span class="fi" style="background:${fp.freshness==='fresh'?'#2E7D32':fp.freshness==='recent'?'#E8A317':'#D93025'}"></span>${fl} par ${fp.by}</div>`}
+let cb='';if(fp&&authToken&&fp.confirmations<5)cb=`<button class="btn-confirm" onclick="confirmPrice(${fp.price_id})">Confirmer (${fp.confirmations}/5)</button>`;
+const nav=`https://www.google.com/maps/dir/?api=1&destination=${s.latitude},${s.longitude}&travelmode=driving`;
+return`<div class="sp"><div class="brand">${s.brand}</div><div class="name">${s.name}</div><div class="address">${s.address||''}</div><div class="prices">${pr}</div>${fi}<div class="actions"><button class="btn-nav" onclick="window.open('${nav}','_blank')">Y aller</button>${cb}<button class="btn-add" onclick="contribute(${s.id})">+ Prix</button></div></div>`}
+
+function filter(q){if(!q){render(allStations);return}q=q.toLowerCase();const f=allStations.filter(s=>s.name.toLowerCase().includes(q)||s.brand.toLowerCase().includes(q)||(s.address&&s.address.toLowerCase().includes(q)));render(f);if(f.length===1)map.setView([f[0].latitude,f[0].longitude],16)}
+
+function setSort(s,btn){sortBy=s;document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');loadNearby()}
+
+function locateMe(){if(!navigator.geolocation){toast('Géolocalisation non supportée','error');return}navigator.geolocation.getCurrentPosition(p=>{userLat=p.coords.latitude;userLon=p.coords.longitude;map.setView([userLat,userLon],15);L.circle([userLat,userLon],{radius:50,color:'#0B6E4F',fillOpacity:0.3}).addTo(map);loadNearby()},()=>toast('Localisation impossible','error'))}
+
+async function confirmPrice(pid){if(!authToken){go('screenAuth');return}try{const r=await api(`/prices/${pid}/confirm`,{method:'POST'});popPts(r.points_earned);toast(r.message,'success');await loadStations()}catch(e){toast(e.message,'error')}}
+
+function contribute(id){if(!authToken){go('screenAuth');return}selectedStation=allStations.find(s=>s.id===id);if(!selectedStation)return;updSel();go('screenContribute')}
+function updSel(){if(!selectedStation)return;const s=document.getElementById('stationSelector');s.querySelector('.brand-dot').style.background=bColor(selectedStation.brand);s.querySelector('.sname').textContent=selectedStation.name;s.querySelector('.saddr').textContent=selectedStation.address||selectedStation.brand}
+function pickStation(){if(!navigator.geolocation){toast('Activez la géolocalisation','error');return}navigator.geolocation.getCurrentPosition(async p=>{try{const d=await api(`/stations/nearby?lat=${p.coords.latitude}&lon=${p.coords.longitude}&radius_km=2&limit=10`);if(d.stations.length===0){toast('Aucune station proche','info');return}selectedStation=d.stations[0];updSel();toast(`${selectedStation.name}`,'success')}catch(e){toast(e.message,'error')}})}
+function previewPhoto(i){if(i.files&&i.files[0]){photoFile=i.files[0];const r=new FileReader();r.onload=e=>{const u=document.getElementById('photoUpload');let img=u.querySelector('img');if(!img){img=document.createElement('img');u.appendChild(img)}img.src=e.target.result};r.readAsDataURL(i.files[0])}}
+
+async function submitPrices(){if(!authToken){go('screenAuth');return}if(!selectedStation){toast('Sélectionnez une station','error');return}
+const g=parseFloat(document.getElementById('priceGasoil').value),s=parseFloat(document.getElementById('priceSp95').value),l=parseFloat(document.getElementById('priceGpl').value);
+if(isNaN(g)&&isNaN(s)&&isNaN(l)){toast('Renseignez au moins un prix','error');return}
+const btn=document.getElementById('btnSubmit');btn.disabled=true;btn.textContent='Envoi...';let pts=0;
+try{const types=[];if(!isNaN(g)&&g>0)types.push({fuel_type:'gasoil',price:g});if(!isNaN(s)&&s>0)types.push({fuel_type:'sp95',price:s});if(!isNaN(l)&&l>0)types.push({fuel_type:'gpl',price:l});
+for(const t of types){const r=await api('/prices',{method:'POST',body:JSON.stringify({station_id:selectedStation.id,fuel_type:t.fuel_type,price:t.price,latitude:userLat,longitude:userLon})});pts+=r.points_earned;
+if(photoFile&&r.price_id){const fd=new FormData();fd.append('photo',photoFile);await fetch(`${API}/prices/${r.price_id}/photo`,{method:'POST',headers:{'Authorization':`Bearer ${authToken}`},body:fd})}}
+popPts(pts);toast(`Merci ! +${pts} points`,'success');document.getElementById('priceGasoil').value='';document.getElementById('priceSp95').value='';document.getElementById('priceGpl').value='';
+photoFile=null;const img=document.querySelector('#photoUpload img');if(img)img.remove();await loadStations();currentUser=await api('/auth/me')}catch(e){toast(e.message,'error')}
+btn.disabled=false;btn.textContent='Enregistrer les prix'}
+
+function toggleAuth(){isReg=!isReg;document.getElementById('authEmailGroup').style.display=isReg?'block':'none';document.querySelector('#screenAuth .btn-submit').textContent=isReg?"S'inscrire":'Se connecter';document.getElementById('authToggleText').textContent=isReg?'Déjà un compte ?':'Pas encore de compte ?';document.getElementById('authToggleLink').textContent=isReg?'Se connecter':"S'inscrire"}
+
+async function handleAuth(){const u=document.getElementById('authUsername').value.trim(),p=document.getElementById('authPassword').value,e=document.getElementById('authEmail').value.trim();
+if(!u||!p){toast('Remplissez les champs','error');return}if(isReg&&!e){toast('Email requis','error');return}
+try{if(isReg){const d=await api('/auth/register',{method:'POST',body:JSON.stringify({username:u,email:e,password:p})});authToken=d.token;currentUser=d.user}else{const fd=new URLSearchParams();fd.append('username',u);fd.append('password',p);const r=await fetch(`${API}/auth/login`,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:fd});const d=await r.json();if(!r.ok)throw new Error(d.detail);authToken=d.access_token;currentUser=d.user}
+localStorage.setItem('token',authToken);toast(`Bienvenue ${currentUser.username} !`,'success');go('screenMap')}catch(e){toast(e.message,'error')}}
+
+function logout(){authToken=null;currentUser=null;localStorage.removeItem('token');toast('Déconnecté','info');go('screenMap')}
+
+async function loadLB(){try{const d=await api('/leaderboard');const l=document.getElementById('leaderboardList');if(d.length===0){l.innerHTML='<div style="text-align:center;padding:40px;color:var(--gray-300)">Soyez le premier contributeur !</div>';return}l.innerHTML=d.map((u,i)=>`<div class="leader-item"><div class="leader-rank ${i===0?'top1':i===1?'top2':i===2?'top3':'normal'}">${i+1}</div><div class="leader-info"><div class="lname">${u.username}</div><div class="lstats">${u.contributions} contributions</div></div><div class="leader-points">${u.points}</div></div>`).join('')}catch{toast('Erreur','error')}}
+
+function renderProfile(){const el=document.getElementById('profileContent');if(!currentUser){el.innerHTML='<div style="text-align:center;padding:40px;color:var(--gray-300)"><p>Connectez-vous</p><br><button class="btn-submit" style="max-width:200px;margin:0 auto" onclick="go(\'screenAuth\')">Se connecter</button></div>';return}
+el.innerHTML=`<div class="profile-card"><div class="profile-avatar">${currentUser.username[0].toUpperCase()}</div><div class="profile-name">${currentUser.username}</div><div class="profile-email">${currentUser.email||''}</div><div class="profile-stats"><div class="stat-box"><div class="sval">${currentUser.points||0}</div><div class="slabel">Points</div></div><div class="stat-box"><div class="sval">${currentUser.contributions_count||0}</div><div class="slabel">Contributions</div></div><div class="stat-box"><div class="sval">${currentUser.corrections_count||0}</div><div class="slabel">Corrections</div></div></div></div><div style="padding:0 20px;margin-top:12px"><button class="btn-submit" style="background:var(--red)" onclick="logout()">Se déconnecter</button></div>`}
+
+function go(id){if(id==='screenContribute'&&!authToken)id='screenAuth';document.querySelectorAll('.screen').forEach(s=>s.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');const m=['screenMap','screenContribute','screenLeaderboard','screenProfile'];document.querySelectorAll('.nav-item').forEach((n,i)=>n.classList.toggle('active',m[i]===id));if(id==='screenMap')setTimeout(()=>map.invalidateSize(),100);if(id==='screenLeaderboard')loadLB();if(id==='screenProfile')renderProfile()}
+
+function toast(m,t='info'){const e=document.getElementById('toast');e.textContent=m;e.className=`toast ${t} show`;setTimeout(()=>e.classList.remove('show'),3000)}
+function popPts(p){const e=document.createElement('div');e.className='points-pop';e.textContent=`+${p}`;e.style.cssText='left:50%;top:40%;transform:translateX(-50%)';document.body.appendChild(e);setTimeout(()=>e.remove(),900)}
+</script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+﻿place_id,name,address,latitude,longitude,rating,user_ratings_total,business_status,types,brand
+ChIJkXihiD4spg0R8Sd1yM7gZvw,Station Service Afriquia,"P3009, Bouskoura",33.4869679,-7.6735371,3.4,90.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJS9xDFDwspg0RJD_nmKt1F8A,Station Service Petromin,"Route de Bouskoura, Casablanca",33.4851593,-7.672305600000001,3.6,74.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJncnXCjwspg0Ri9l2s9MjsY0,Station Shell Sofia,"P3009, Bouskoura",33.48503759999999,-7.671179099999999,3.7,104.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJjUFEYCQtpg0R2n9f4yKEWEM,Station Service Afriquia,"F9J7+F3M, Bouskoura",33.4815273,-7.638161099999999,4.2,13.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJzWsNVC4vpg0RH1YjZFMW88g,Station Service Yoom,"F972+RFM, Unnamed Road, Bouskoura",33.4652621,-7.647057999999999,3.9,48.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Yoom
+ChIJJ4-jLdotpg0RtP3Vn40r5c0,Station Service Afriquia,"F9MF+JQQ, P3026, Bouskoura",33.4839398,-7.6253948,3.7,176.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJF_Umhq8tpg0Rfea1EdHqIz4,Station Service Petromin Oils Bouskoura,"Foret, Bouskoura",33.487632,-7.633623200000001,3.8,34.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJz_pk6Kstpg0RoEXqAs_umac,Station-service YOOM Ville Verte,"Ville verte, Bouskoura",33.4949495,-7.613780900000003,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Yoom
+ChIJ3fV3KAAzpg0R8Oa5voOCqms,Total energies,"FCR8+8VX, Bouskoura",33.4908607,-7.582764099999999,3.3,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJM9DhDAA1pg0RTPFs92pfpt8,Station Top Petrol,"FFJQ+XFR Al Majjatia Oulad Taleb, Casablanca",33.4824375,-7.511312499999999,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Top Petrol
+ChIJxe9isrM3pg0ROqQdkDbVUcg,OLA ENERGY CHECK ENERGY,"Province de Mediouna N°9 Ouled Taleb, Mediouna",33.47632379999999,-7.511682699999998,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJGRl76mA1pg0RbYDjDYie4PA,TotalEnergies El Waha,"FFPQ+WV, Al Majjatia Oulad Taleb",33.48844149999999,-7.509953599999998,4.9,14.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJLQMUf2E3pg0R0c2W7e5PI7g,Station shell,"ط و ر 9, الدار البيضاء",33.4663765,-7.5141819,4.3,14.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJj2xAROIrpg0Rzd0cKH0qsvs,TotalEnergies OUED BOUSKOURA,"National Route 1, Rte Eljadida, Nouasseur",33.50168620000001,-7.7170429,3.8,25.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJTyC0m4Urpg0RYewqSb0iBiY,Station Petromin Oils,Groupe Premium,33.5054306,-7.711142400000001,5.0,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJfW1srSgrpg0RwJJeB2Vhd1A,Shell Bakri,"KM 15.5, Route d'El Jadida, Casablanca",33.4983545,-7.7214686,4.0,34.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJwXN5k7orpg0RAoUyz-hCtnw,Shell,"Rte, N1, Dar-el-Beida",33.4985556,-7.723136999999999,,,OPERATIONAL,"gas_station, car_wash, cafe, food, point_of_interest, store, establishment",Shell
+ChIJRw4MTwArpg0RCrcQDxKdi6E,Total énergies,"Angle N1, P3032",33.5084932,-7.706813599999998,,,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJYbjZ-FArpg0RDtteh6nFoF8,Station service shell IRAQUI,"Pres De La Mosque Essalam, N1, الدار البيضاء",33.513715,-7.7004601,4.3,24.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJMeC0WAAtpg0R90xW4FODugI,Station Service Afriquia,"G878+8VP, Rue de Zerhoun, Casablanca",33.51236069999999,-7.6832062,4.0,7.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ0WFm27Qtpg0RMgcCIh2UgjI,Station Service Afriquia,"Rocade Sud-Ouest, Casablanca",33.5086444,-7.6793545,3.5,159.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJYdHJ9fgtpg0RF1kY_N8Pzo8,Afriquia LISSASFA EXIT,"Au Pk, Pénétrante d’Azbane Autoroute, Pénétrante d’Azbane, Casablanca",33.50548879999999,-7.6780483,3.5,114.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJiyHD8YMspg0Rp37k0ghAB8c,Station Service Total,"G894+PJW, Casablanca",33.5193733,-7.6934299,3.9,92.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJX6OR7k0spg0RBSFk9GmQlOQ,Station Service inov,"G83R+CC2, Casablanca",33.5035119,-7.658970400000002,3.9,166.0,OPERATIONAL,"gas_station, point_of_interest, establishment",INOV
+ChIJkUn6_P8spg0RhhWo3v87f9k,TotalEnergies SIDI MAAROUF,"Centre Quartier, Av. Abou Bakr el Kadiri, Km7 Route de Bouskoura, Casablanca",33.515828,-7.654990700000001,3.6,519.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ3auYHpktpg0Rb24i-ThX7tY,TotalEnergies NASSIM,"Nassim, Casablanca",33.51552219999999,-7.658208699999999,4.0,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJL60nKiwtpg0RRuJsi8InRsc,Petromin Oils,"Parc Industriel Tawfik, Route 1029, Casablanca",33.5223854,-7.652200100000001,2.0,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJtWMN2Jktpg0RWQNdZRz4hXs,Station Afriquia Route Marrakech,"الطريق الوطنية رقم 11, Dar-el-Beida",33.50566370000001,-7.6298493,3.8,498.0,OPERATIONAL,"gas_station, restaurant, food, point_of_interest, establishment",Afriquia
+ChIJL20V6QItpg0RiovuwfJAnTw,Station service Petrofan Ville Verte,"G95J+PCP, Casablanca",33.5093496,-7.6189193,4.5,6.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrofan
+ChIJRfW_I2cupg0RAOIZS2zK5z8,Shell Bouskoura,"P. 22, Centre B, N11 Route de Bouskoura Km 17 - Bouskoura, Dar-el-Beida",33.5068032,-7.630248999999999,3.5,139.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ7UqebwAtpg0RzVXPfZPWaxk,Shell,"N11 Route de Bouskoura, Casablanca",33.5068086,-7.630249600000001,4.2,6.0,OPERATIONAL,"gas_station, car_wash, convenience_store, restaurant, food, point_of_interest, store, establishment",Shell
+ChIJgXX2sZktpg0R-6Qy-10kA90,Station Somap,"G959+4VJ, Casablanca",33.507827,-7.6303506,4.0,37.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Somap
+ChIJJZr94Jgtpg0RUnRKYPU9Dg0,Station Service Petrom,"G959+RQR, Casablanca",33.5096212,-7.630600299999999,3.9,197.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJw63CyJktpg0Rf9FziO7jL1Q,station-service Shell,"Route de Bouskoura Pres De Kitea Geant, Bouskoura, 27182, Dar-el-Beida",33.50634239999999,-7.631433299999998,3.9,558.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ4X2yPQAtpg0RpZgexYua8Lc,Petrom Bouskoura 3,"G969+433, Casablanca",33.51025570000001,-7.632336100000001,2.3,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJW0v2Dp8tpg0RIZLCnfVemGE,Station Service Afriquia,"Pk 10+000, Route de Bouskoura Rs 109, Dar-el-Beida",33.5134893,-7.631573599999998,3.5,71.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJVTiyeCwtpg0RuS7zoam_Mps,Station-service YOOM Taddart,"Avenue Al Hachmi Al Filali, Casablanca",33.5147631,-7.6144072,3.6,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Yoom
+ChIJE4vSOHwzpg0RMDwPIAiIMPg,Afriquia Sidi Mâarouf,Casablanca,33.5110038,-7.6104714,3.9,111.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ4eN-wHgypg0R_Ll86hESdxM,Station Service Afriquia,"Douar, A1 Autoroute De Contournement De Casablanca, الدار البيضاء",33.5111955,-7.610024999999999,3.4,1177.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJz-XOxWujqA0RKmBpB_Jrg6U,TotalEnergies OULAD ABOU,"R318, Av. Mohamed V, Casablanca",33.5101364,-7.608106500000001,3.6,88.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJyZo5Bnkypg0Ruwhxa2IEQ5E,TotalEnergies RELAIS AL BAIDA,"PK 24, A501 Casablanca vers Rabat, Bouskoura",33.51012029999999,-7.608099399999999,3.9,541.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJw5haYc0tpg0RSE2d7sW1Jdw,Station Service Afriquia,"Av. Al Hachmi Filali, Rte de Taddart, Dar-el-Beida",33.5194717,-7.616048399999999,3.8,93.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJC3l9KgAzpg0Rmhk0YYu9HaI,Station service Afriquia green town,"F9XR+MCX, Bouskoura",33.49923750000001,-7.608890600000001,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ3VFWYwAzpg0RusvItIHORu4,Station Petromin Sidi Massoud,"G99R+G6M, Casablanca",33.51791699999999,-7.610257799999999,4.3,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ_V_bwactpg0RgDDDRCLQhC0,Station Service Petromin Oils,"G9CM+X72, Californie, route de la ville verte, Casablanca",33.52239120000001,-7.616854699999999,3.3,116.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJAaLJS3Izpg0RV-srvulLJIc,Station Shell Sidi Massoud,"Avenida Lala Fatima Zaroual Cr Bouskoura Province Nouaceur, Dar-el-Beida",33.52085690000001,-7.601579399999999,4.0,17.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJny7kw6Izpg0R8OmQP7s30e8,Station Service Ziz,"GF62+PQM, R315",33.5118413,-7.5480838,3.6,62.0,OPERATIONAL,"gas_station, point_of_interest, establishment",ZIZ
+ChIJscHBAagzpg0R5DVlEHMUDGw,Station Service Afriquia,"R315 Route De Mediouna, الدار البيضاء",33.5210432,-7.557557399999999,3.4,22.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ2Vrh9IA1pg0ReU-usLj-rSU,Station Service Afriquia,"Route Nationale 9 Mediouna Vers Tit Mellil, Dar-el-Beida",33.498015,-7.504032,4.3,54.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJmwJCFAA1pg0Rsl2RoSCjviU,Station de service Petromon oil,"GGF4+37J, N9, Casablanca",33.5228454,-7.4944859,3.3,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJF2vsBmIrpg0RFslGXkNsk_I,Station Petromin,"G7MG+JFG, Arrahma",33.534061,-7.723797300000001,3.8,59.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJddRr-1Mrpg0RUFskK6Q8MnU,Afriquia Moulay Thami,"P3014, Casablanca",33.537208,-7.720381899999999,5.0,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJeZVv3EArpg0R6HyQSwUhI9E,Station Service Afriquia,"Près Centre Errahma, P3014 Route Azemmour, الدار البيضاء",33.5380836,-7.717684000000001,3.5,177.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJtardTgArpg0R3FmTs2GV4Po,Station Service Petrom,"G7RQ+M4F, Casablanca",33.5416903,-7.712205,3.0,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJ70Q5FwArpg0Rfp-y1LiaDt4,TotalEnergies Abraje Oulfa,"G7VQ+4VQ, Casablanca",33.54282729999999,-7.710255000000001,3.8,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ_d0t05Uspg0RY6uyatpYMHo,Station Service Petromin Oils,"G8M9+6CR, LISSASFA LOTI KASBATE EL AMINE, El Jadida Rd, Dar-el-Beida",33.53311029999999,-7.681471099999998,3.5,109.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJp4cIpZMspg0RYSP2SObBE4c,Afriquia ROUTE EL JADIDA,"N1 Km 9 Route de Casablanca, Vers El Jadida, Dar-el-Beida",33.5284758,-7.679729399999999,3.3,143.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJJbgis7stpg0RurQuesfdCgo,Station Service Petromin Oils,"G8V8+J2W, Casablanca",33.5441178,-7.684930199999999,3.6,49.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ0Vdobusspg0R-BIwO93mZdo,Petrom,"G8JG+M5J, N1, Casablanca",33.53170059999999,-7.6745993,3.7,31.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJOfxWRwAtpg0RLM2jaibRgVE,Station Service Yoom,"G8RH+95C, Boulevard Laymoune, Casablanca",33.5409401,-7.672115899999999,3.2,13.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Yoom
+ChIJx5CVXN0spg0RQCmn0p7Z7Lg,Station Service Afriquia,"Lotissement Mehdi, Boulevard Laymoune, Route El Jadida, Dar-el-Beida",33.5375295,-7.664580099999999,3.6,279.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJUwwxWwItpg0RXHngn6GBbQM,STATION SHELL LAYMOUNE,"LOT SOUMIA, Casablanca",33.5368708,-7.6655395,4.4,49.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ3SNKee8spg0R6S85Ekqqj50,TotalEnergies Nassim,"Pont d'Azbane, Dar-el-Beida",33.528896,-7.665973300000001,3.5,204.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJvwY4EwAtpg0RfFdWZ0g79bk,TotalEnergies LES FACULTES (Station TOTAL),"G8VX+G3X, Boulevard Abdellah Ibrahim, Casablanca",33.5438719,-7.6522562,5.0,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJz4rtwRctpg0RP08PW2HfW2s,Station Service Afriquia,"Av. Abou Bakr el Kadiri Centre Commercial Bouskoura Sidi Maârouf Casablanca 9, Dar-el-Beida",33.5371293,-7.6424781,3.4,26.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJhQ8_bAMtpg0R-xTcBQYe_B0,Inov Petrol S.A.,"Lotiss. Attawfik, Casablanca",33.5419993,-7.642826700000001,4.4,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",INOV
+ChIJs5SDUzctpg0RElWhKdJ1mtU,Afriquia Marjane Californie,"Quartier Californie, Boulevard Dammam Sidi Maârouf, Dar-el-Beida",33.5447792,-7.638399599999999,3.6,78.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJd0Y4tmEtpg0R6t_m37y2Hb8,OLA ENERGY OUED EDDAHAB,"Daroua, Route de Casa, Deroua",33.531973,-7.623667999999999,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ65cksXktpg0RQ6c6gmBT1P4,Station shell Californie,"Prefecture Des Arrondissements, شارع تادارت, الدار البيضاء",33.535334,-7.617007,3.5,33.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJOXXPQJctpg0RaK2bjCMBtIY,Station Service Petromin Oils,"G9XG+QR8, Route de Taddart, Casablanca",33.5494116,-7.6229323,3.8,39.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJMSsnPQAtpg0RJ919CVASCy0,Station Service Afriquia Panoramique,"Angle Boulevard Al Houceima_Et, Boulevard Panoramique, Casablanca",33.5498585,-7.6158781,3.5,39.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJAYrvz8Mypg0RsYKlbWenk3Q,Station Shell,"Boulevard Mohammed VI, Route Mediouna, Dar-el-Beida",33.5453807,-7.5836025,4.0,177.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ5Y41bw8zpg0Rj93lJewwbdo,TotalEnergies Zerhouni,"GCH4+PP3, Casablanca",33.5292666,-7.5931882,3.7,24.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJxTM-JgAzpg0RKufY86zSF2w,station service Petromin Hay Al Inara,"GCM2+HJ6, Casablanca",33.5339188,-7.598497299999998,4.2,10.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJESq3sKIypg0R8j-z_afDMcI,Afriquia INARA,"Avenue 2 Mars, Casablanca",33.54180989999999,-7.6012024,2.3,10.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ3T3EUp8zpg0R6Q12q37yMwk,station-service SHELL,"R315 Av Lalla Fatima Zaroual, الدار البيضاء",33.53261069999999,-7.576259499999999,3.7,9.0,OPERATIONAL,"gas_station, convenience_store, food, point_of_interest, store, establishment",Shell
+ChIJq_McnlUzpg0Rh19v09m_DQ8,TotalEnergies GARAGE ES SAADA,"Industrielle, Rue Ecole, Casablanca",33.5464661,-7.5912395,3.8,10.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJRYfoysMypg0RKEZ3T9PxQNQ,Station Ola,"GCV8+WQG, Boulevard Mohammed VI, Casablanca",33.5448177,-7.583046899999999,3.7,15.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ27rut-Uzpg0R0HF3GUe-QC4,OLA ENERGY SIDI OTHMANE,"Km 6,7 Route de Marrakech, Casablanca",33.546023,-7.583992,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJO4VuzBYzpg0RErltmasG91I,Station Petrom salmia 2,"Boulevard Al Joulane, Casablanca",33.5384026,-7.553540900000002,3.3,62.0,CLOSED_TEMPORARILY,"gas_station, point_of_interest, establishment",Petrom
+ChIJj23c50Mzpg0RFLLPveRwwQE,Petrom R135,"GCGM+WXF, Casablanca",33.5273004,-7.565062600000002,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJI5-h2r4zpg0Rw0wsJlq2Ysc,Afriquia MARJANE SIDI OTHMANE,"Centre Commercial Marjane, Avenue du 10 Mars 1982, Dar-el-Beida",33.5470942,-7.5475352,3.3,7.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ89dnYDkzpg0RR3HL-abwK_c,Afriquia MARCHE DE GROS,"Abdelkader Essahraoui, Avenue du 10 Mars 1982, Casablanca",33.5509059,-7.551623699999999,3.5,158.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJDZ1pHnszpg0RzgVyIXH06EQ,Station Service Petromin Oils,"GFJ8+VWJ, Nouvelle Lahraouine",33.5322221,-7.532738599999998,3.9,61.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ70nYczw1pg0RxSNODSokBdQ,Afriquia JNANE MADYOUNA,"P3016 Lotissement Jnane Madyouna, Casablanca, Nouvelle Lahraouine",33.5310148,-7.5098526,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJuTgEDIA1pg0RFj-rhG8DdZk,Station Total énergie,"Zone Industrielle Tit Mellil, N9, Tit Mellil",33.5333874,-7.4939255,4.1,15.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJYUuec7E1pg0RVnZaKMJ5t_I,Station Service Petrom,"GGH4+78V, Tit Mellil",33.5282381,-7.494205999999999,4.3,7.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJzduaNEvTpw0RLHhOnhJhBoU,TotalEnergies OUM ERRABII,"Boulevard Oued Oum Rabia, Casablanca",33.5583422,-7.680231199999999,3.4,267.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJgxRIxq0spg0RJcNiltqcrEw,OLA ENERGY OULFA,"Ain chok, El Alia 3, Casablanca",33.553296,-7.689182000000002,3.7,91.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJRUJENqwspg0R9Fncd0ehgAE,Station Service Winxo,"H835+9M5, Route, Casablanca",33.553378,-7.690762599999999,3.6,159.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJfZjS5ozTpw0RaP-O_hRCl48,Afriquia MARJANE HAY HASSANI,"Boulevard Oued Laou, Casablanca",33.5667,-7.6768,1.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJaeel1UnTpw0RhguEa6AriC8,Station Service Afriquia,"Boulevard Oued Laou, Casablanca",33.5667,-7.6768,3.1,82.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJMVPkCkbTpw0RFfecDV1tOH4,Station Service Ola Energy,"H8C9+674, Rue Sidi Al Khadir, Casablanca",33.5705206,-7.681804999999999,3.6,30.0,CLOSED_TEMPORARILY,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJC0NwVLAtpg0RJmfDGNLaBTI,Station shell,"Route Moulay Thami, الدار البيضاء",33.5506421,-7.6956259,4.0,45.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJUfDFQS0tpg0RoGa5muvInqU,Afriquia OASIS,"1 Route d'El Jadida, Casablanca",33.5589589,-7.645014599999998,3.6,657.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJn_XcY-4ypg0R3ywd3Ed30OM,Station Shell Des Stades (Ahmed Kessab),"400 Route El Jadida, Casablanca",33.5583749,-7.6449509,4.5,11.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJIS1k4Cstpg0RgcYyj1L4CsM,Station Service Shell,"Route d'El Jadida, Casablanca",33.558295,-7.644906900000001,3.9,70.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJGcO5my0tpg0RM8mrUhpMb8M,Station Service Winxo Avenir,"H944+V25, Casablanca",33.5571477,-7.644878400000002,3.8,864.0,OPERATIONAL,"gas_station, car_wash, grocery_or_supermarket, car_repair, restaurant, point_of_interest, food, store, establishment",Winxo
+ChIJt2Lkey0tpg0Rl0gmyenn7bQ,Station Shell,"Route d'El Jadida, Casablanca",33.55794090000001,-7.6441428,3.7,152.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJFbJD8NHSpw0RQGdb02QnbAs,Shell Oasis,"Route d'El Jadida, Casablanca",33.566582,-7.644659999999999,3.8,195.0,OPERATIONAL,"gas_station, convenience_store, point_of_interest, food, store, establishment",Shell
+ChIJPU20rqnTpw0Rg422OEVCRaM,PETROM Éléphant Bleu 24h/24,"H994+249, Route d'El Jadida, Casablanca",33.5675426,-7.6446304,3.1,15.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJGSgOz9HSpw0RyJZCwNlK2RE,TotalEnergies RIVIERA,"Rue Omar Al Khayam, Route d'El Jadida, Casablanca",33.5681994,-7.644730299999998,3.9,254.0,OPERATIONAL,"gas_station, car_wash, point_of_interest, establishment",TotalEnergies
+ChIJbZFKmSfTpw0RB41n8bC8HXU,Shell,"Ile De France, Rue d'Ifrane, الدار البيضاء",33.5732486,-7.655815399999999,2.7,36.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ_TusWM7Spw0RaaRnuNbhSgU,Station Service Petrom,H995+5FQ,33.5679507,-7.641276899999999,3.6,18.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJ08K13e_Tpw0RMwZtMhSODos,"Station Shell Hassania, Hay Hassani.","Croisement Boulevard Sidi Abderrahmane et, Boulevard Ibnou Sina, Casablanca",33.5714223,-7.668812099999999,4.1,100.0,OPERATIONAL,"gas_station, car_wash, cafe, point_of_interest, food, establishment",Shell
+ChIJF3WF5MvSpw0RwxV_JbCtkA0,TotalEnergies GHANDI,"Boulevard Ghandi, Casablanca",33.5660385,-7.637688100000001,3.8,143.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJRxEkZMXSpw0RZbLbijp0CsE,TotalEnergies ROUTE DU SUD,"Boulevard Brahim Roudani, Casablanca",33.57218,-7.64222,3.7,168.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJgS6qQ_nTpw0RC8L7ypkotsw,Station Petrofan Hay al Hana,"H8GQ+887, Casablanca",33.5757867,-7.661701399999999,3.2,10.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrofan
+ChIJNbMOsr3Tpw0RZO5OyMBn0xg,Petromi,"H978+H54, Boulevard Ghandi, Casablanca",33.5638851,-7.634562299999999,3.5,12.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJL_V2s1XNpw0RpVGACGT9woc,Station Shell,"Avenue 2 Mars, Casablanca",33.5663547,-7.609562800000001,3.9,207.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJE-6JM1Mtpg0RzXy3AxT4etY,Petrom,"9 Boulevard Modibo Keita, Maarif",33.5617952,-7.6185422,3.7,42.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJdS_9100tpg0RZBO8DdCP97g,Shell Station Taddart,"Route de Taddart, Casablanca",33.556148,-7.624232999999999,3.9,150.0,OPERATIONAL,"gas_station, car_wash, point_of_interest, establishment",Shell
+ChIJwaQnBzMtpg0RvGEv2tl4-hM,Petromin Station Taddart,"route taddert hay bachkou ss bachkou 20000 casablanca el maarif maroc, Casablanca",33.5558873,-7.623732200000001,4.7,7.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJCZaCei_Tpw0RmH-v44dhIc8,Afriquia ABDELMOUMEN I,"355 Boulevard Abdelmoumen, Casablanca",33.5660158,-7.626226799999999,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJLT-RwbPSpw0Rxh8zS1sbr9Q,Station Service Afriquia,"Boulevard Abdelmoumen, Casablanca",33.5661558,-7.6267057,3.3,182.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJnZW7iMrSpw0Rijwy8EcA62Y,Station Service Ziz,"H978+CFJ, Casablanca",33.5635822,-7.633848500000001,3.3,16.0,OPERATIONAL,"gas_station, point_of_interest, establishment",ZIZ
+ChIJezprkTUtpg0Re7B4mMOI9ko,Petrom,Casablanca,33.5573336,-7.634031200000001,3.6,18.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJPa1Kk1TTpw0Ru7lVFIHQCSM,Station Shell,"Driss 1, شارع عبد المومن, الدار البيضاء",33.5718725,-7.625638500000001,3.7,20.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ61QTCFXNpw0RwuQuYXhh-6c,Station Service Ola Energy,"H98R+37V, Avenue 2 Mars, Casablanca",33.5652359,-7.609337500000001,3.7,15.0,CLOSED_TEMPORARILY,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJnTq_gyXnpA0RCD06cjU77BA,TotalEnergies ABDELMOUMEN,"212 Boulevard Abdelmoumen, Casablanca",33.572989,-7.6261113,4.1,17.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ5_jT36nSpw0REaA8wZWpzTA,Station Winxo,"H99Q+Q9F, Casablanca",33.56944000000001,-7.611571700000002,3.9,9.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJ-6c6KU_Tpw0RJ3y0l9GCiKY,Station Service Winxo,"187 Boulevard Abdelmoumen, Casablanca",33.5740948,-7.6261858,2.3,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJbavLZUQzpg0RjKsZsUcWy_Y,Petromin Station Bd Ouled Haddou,"H92Q+CHW, Boulevard Ouled Haddou, Casablanca",33.5511072,-7.611046399999999,3.3,20.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJtegZCqgypg0RKLqkdBgTIeg,Afriquia HERMITAGE,"L'hermitage, Boulevard Panoramique, Avenue Nador, Dar-el-Beida",33.5515553,-7.610422899999999,3.6,48.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJhZM0IabSpw0RHn6R2lUAzMo,Shell Station Bd Alexandrie,"Sis 2, Boulevard Alexandrie, Angle Avenue 2 Mars, Dar-el-Beida",33.5734111,-7.615045800000001,3.9,77.0,OPERATIONAL,"gas_station, restaurant, point_of_interest, food, establishment",Shell
+ChIJA_3XGabSpw0Re9288ExmV-0,Station Service Ziz,"H9FM+HPV, Avenue 2 Mars, Casablanca",33.5739976,-7.615717,3.7,35.0,OPERATIONAL,"gas_station, point_of_interest, establishment",ZIZ
+ChIJlR57QK8ypg0RJKM-jNxxWKc,Petrom,"H93W+63W, Casablanca",33.5531008,-7.604783200000002,3.9,28.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJj3JEk6bSpw0Rx4r7NreL5xo,OLA Energy service station,Casablanca,33.5771133,-7.615549499999999,4.0,76.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ30M1FFjNpw0RgXlyxqzWldY,TotalEnergies AL MADINA,"Boulevard Moulay Idriss I, Casablanca",33.5748492,-7.610206499999999,4.0,51.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJgRWtR8wzpg0Rf3Jw_o62QYc,Afriquia MARJANE DERB SULTAN,"Bd Abou Chouaib Doukkali, Route Mediouna, Dar-el-Beida",33.562709,-7.593368999999999,1.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJKQXzgH3Npw0RkjrIt60Bwjk,Station Winxo,"Souk Laayoun, Casablanca",33.56478330000001,-7.595520399999999,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJf3qQlbcypg0R4meUb3b5QPI,Total,"1053 Boulevard Mohammed VI, Casablanca",33.5539532,-7.5912571,3.3,12.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJKfnKPgAzpg0RrfAAX79CL4M,SOMAP سوماپ,"1053 Boulevard Mohammed VI, Casablanca",33.5539239,-7.591272399999999,3.7,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Somap
+ChIJ0yJkmLcypg0R8nCZxENPBiw,Station Winxo Ain Choq,"HC35+H68, Casablanca",33.553922,-7.5919122,3.5,87.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJwXsQjzTNpw0Rk-hp8hUUMrY,TotalEnergies EL FARAH,"Boulevard de la Grande Ceinture, Casablanca",33.5664034,-7.5849457,3.6,77.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ2W_hEEzNpw0RLQphpM0uMV0,Station Shell Oulad Hriz,"Boulevard Mohammed VI, Route Mediouna, Casablanca",33.56817499999999,-7.596220999999998,4.1,27.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJOfpxGUzNpw0R0wvpcDc1yJ0,TotalEnergies MOUSTAKBAL,"868 Boulevard Mohammed VI, Casablanca",33.5685203,-7.596264200000001,3.9,42.0,OPERATIONAL,"gas_station, car_repair, point_of_interest, establishment",TotalEnergies
+ChIJnXakmTPNpw0RhQMidUQYxZ0,winxo ben msik,"HC98+2P7, Casablanca",33.5675377,-7.5831942,2.7,6.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJ9RxRpTPNpw0RzUJlKNYSQo0,Station Shell,"Boulevard de la Grande Ceinture, Omar Ibn Khattab, Dar-el-Beida",33.567662,-7.582275999999999,3.6,92.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJywYSmzEzpg0Rq7cYOuu-DXE,Afriquia OTHMANIA,"Boulevard Abou Houraïra, Casablanca",33.559228,-7.576167000000001,3.8,70.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJNR9eanE9pg0RdQCPbbkZ7Ug,Total Petrol Station Relais Chaouia,"vers Marrakech, Autoroute Casablanca-Agadir PK 35, Casablanca, Berrechid",33.5730992,-7.589834000000001,3.7,248.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJs5b7O6jNpw0R37mszJzTyLo,TotalEnergies LISSASFA,"Route D'el Jadida, El Jadida",33.5731104,-7.589843399999999,4.5,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJRbCf2vHSpw0RvKj4eJH6ML0,Shell,"Ait Ishaq, Boulevard Aïn Taoujtate, الدار البيضاء",33.5731104,-7.589843399999999,4.7,3.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJQxU-8-PNpw0ROmJq-DCqIR0,OLA ENERGY 2001 CASA,"Bd Moulay Sliman, Casablanca",33.57313600000001,-7.589772000000002,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJabp_bgDNpw0RL7Txh7AdF0k,Afriquia AL FIDA,"Boulevard Mohammed VI, Casablanca",33.5721472,-7.597715400000002,3.4,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJffQ24yfNpw0RHYVehw3zuDw,Afriquia GARE ROUTIERE OULED ZIANE,"Gare Routière, Rue 7, الدار البيضاء",33.5737143,-7.5883532,3.0,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ16XKfafNpw0RPpbISm4g_zE,OLA ENERGY KOREA,"84 Place Sraghna, Casablanca",33.57001579999999,-7.602105799999998,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJQ6z_d1HNpw0RmJgVp73qmiY,Shell,"296 Boulevard El Fida, Casablanca",33.56914310000001,-7.6032721,4.0,34.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ5Qox9uozpg0R7KWEpyc7e1o,Station Petrom,"HC4G+9WQ, Casablanca",33.55595239999999,-7.5726525,4.0,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJIQwAjNbNpw0R-5pUBiT2PWk,Shell,"Route des Oulad Ziane, Casablanca",33.5770986,-7.5878086,2.8,18.0,OPERATIONAL,"gas_station, cafe, restaurant, food, point_of_interest, store, establishment",Shell
+ChIJH4Vi5QMzpg0RJX0LhZfpVk8,TotalEnergies VILLE NOUVELLE,"Cité Nouvelle de, Av. du 10 Mars 1982 Tranche D, Casablanca",33.5567056,-7.559630199999999,3.8,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJqZlFOY4zpg0RmHP9yzqjW54,Station Service Petromin Oils,Casablanca,33.5652929,-7.5568071,3.5,63.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJERHrBiYzpg0RO6712Lzqfrc,OLA ENERGY 2000 SIDI OTHMANE,"Boulevard Driss EL Harti, Casablanca",33.554055,-7.562783000000001,3.7,96.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJN3eW-87Mpw0RhLhzeWLs_zo,Shell Station Service Flahi,"Avenue Khaider Ben Abdellah, Av C, Dar-el-Beida",33.5738118,-7.554172599999999,4.0,256.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJdyFhqsjMpw0RFxUG92IaiiM,Oilybya,"HCGX+V8Q, Casablanca",33.5772074,-7.5516526,4.5,6.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJoRiw-ynNpw0Rnf8t3dCTSfQ,OLA ENERGY MABROUKA,"Km 6, 8 Route de Ben Sliman, Casablanca",33.577333,-7.551703,1.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJwdR4ZsjMpw0RF1Ytlc1JwAk,Total service station Mdakra,"Boulevard Oqba Bnou Nafii, Casablanca",33.5763401,-7.5487707,3.7,164.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJo7IoVdkypg0RTQfBW25bf_g,Total Petrol Station City Djemaâ,"Boulevard Commandant Driss Al Harti, Casablanca",33.5482294,-7.5733595,3.6,172.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ7SJTLFIzpg0RaoWrqnhW_Co,Station Service Petrofib,"HF68+XQ3, Avenue Abdelkader Essahraoui, Casablanca",33.56239709999999,-7.533083299999999,3.7,52.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrofib
+ChIJ8dHlgpIzpg0RkbrHW2wwtJ4,Station Service Petromin Oils,"HF67+683, Avenue Abdelkader Essahraoui, Casablanca",33.5605069,-7.536695699999997,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJJwCdMfAzpg0RHTEbfAbNMS8,Station service Total,"HF29+RWJ, Casablanca",33.5520751,-7.530248500000001,4.1,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJY5Q8VOPLpw0R35bnsufI260,Afriquia TACHAROUK 1,"Boulevard Oqba Bnou Nafii, Avenue Abdelkader Essahraoui, Dar-el-Beida",33.5698432,-7.521934600000001,3.5,24.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJW-1obADLpw0RN5Hbl7N8clg,Station petrom,"41 Avenue Abdelkader Essahraoui, Casablanca",33.5704164,-7.5222947,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJazVZ-KvMpw0Rs_pJHljnrlQ,TotalEnergies Attacharouk,"HFCC+W7C, Boulevard Oqba Bnou Nafii, Casablanca",33.5723028,-7.529354999999998,3.7,158.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ3dZP-KvMpw0RV-6oF8d_E7o,Station Service Afriquia,"Tacharouk, Bv Oqba Ibno Nafii, Dar-el-Beida",33.572478,-7.530057099999998,3.4,60.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ3c-obAA1pg0RkifMFfHDiFg,PETROMIN ATTACHAROUK,"HF8V+PR5, Casablanca",33.566224,-7.5059064,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJm7HSWwA1pg0RWmLo-bMomUI,Station afriquia,"Km 14, 5, Bp 80 Route Ben Slimane, Tit Mellil",33.5619334,-7.493925699999999,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJBUV9ftk0pg0Rw5EafT14sec,Station-service inov,"HG47+974, N9, Tit Mellil",33.5558864,-7.486801999999999,3.6,39.0,OPERATIONAL,"gas_station, point_of_interest, establishment",INOV
+ChIJnWyjudk0pg0R7OoF51FG0iE,Station Winxo Tit Mellil,"P3309, Casablanca",33.5573169,-7.484987599999999,3.7,87.0,OPERATIONAL,"gas_station, car_repair, point_of_interest, establishment",Winxo
+ChIJj1MzMQDLpw0RvTPKw-yU7WU,Station Service appollo Ahl loughlam,"HGC8+VVR, Settat",33.5715683,-7.4832918,4.8,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Appollo
+ChIJX9CKED_Tpw0R8scEDTqIW7Q,Station Service Afriquia,"Route d'Azemmour Angle Boulevard Abi Rakrak Et Ibnou Haitam Quartier, Dar-el-Beida",33.5771291,-7.6744951,3.4,151.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ4WGMbh3Tpw0RWjsSeqvPMiM,Station Winxo,"H8RW+86M, Boulevard Franklin Roosevelt, Casablanca",33.5908412,-7.6544589,3.7,71.0,OPERATIONAL,"gas_station, car_wash, car_repair, point_of_interest, establishment",Winxo
+ChIJBSAZHR3Tpw0REtRQOPS7NjM,Shell,"Rue Lice Anfa, Boulevard Kennedy, Dar-el-Beida",33.59110500000001,-7.657368999999999,3.9,70.0,OPERATIONAL,"gas_station, cafe, convenience_store, store, point_of_interest, food, establishment",Shell
+ChIJTca2l8DNpw0ReTROLhUFELk,OLA ENERGY MARCHE DE GROS,"Av Abdellah Ben Yassine, Casablanca",33.584948,-7.650336999999999,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJCTAk2eDSpw0Rioxa7ifmIzI,OLA ENERGY SPORT,"12 BOULEVARD IBN SINA, Casablanca",33.584928,-7.650309999999999,3.9,25.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJdzwvKW3Tpw0Rso7pchCnidE,Shell,"125 Rue des Soissons, الدار البيضاء",33.5867157,-7.649229699999999,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJZVw8ZwDTpw0RYUlpSKT4wwo,Station Afriquia Anfa,"H8RW+XG7, Casablanca",33.5928286,-7.6538299,3.7,17.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJd2tAuObSpw0Rdq3Sfcs5ALs,Shell Doumer,"Avicenne / Alexandre 1Er, Boulevard Abdelkrim Al Khattabi, الدار البيضاء",33.5867117,-7.6491851,3.6,80.0,OPERATIONAL,"gas_station, convenience_store, store, restaurant, point_of_interest, food, establishment",Shell
+ChIJR3kkNQDTpw0R9IQfYZDdrBw,Station Petrom,"H9P2+C96, Casablanca",33.5860459,-7.649119300000001,5.0,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJJ5klDeTSpw0ReBKRD9qxp7Q,TotalEnergies VELODROME,"Boulevard Moulay Rachid, Casablanca",33.58939290000001,-7.648765199999999,4.0,95.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJPWHbNwDTpw0RQgyJzpDO26A,Afriquia Chantilly,"10 Boulevard Ibnou Sina, Casablanca",33.5812435,-7.652807,3.3,80.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJVVUlgiDTpw0RY6y5WbXT5WA,Winxo,"H8HW+G2V, Casablanca",33.5788696,-7.6549381,1.8,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJ4RrXc7rSpw0RKFVElukRStc,TotalEnergies Al Massira,"87.0 Boulevard Al Massira Al Khadra, Casablanca",33.58706540000001,-7.6412924,3.9,103.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ55aikPvTpw0RKCCY-nfCkc0,Station Service Petromin Oils,"RUE OUMAYMA SAYEH, Casablanca",33.5880001,-7.6387604,3.2,11.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJszfo38jTpw0RBcdTsNyvezA,station d'essence Shell,"H9V5+VRH, Casablanca",33.5946982,-7.640375399999999,2.0,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ4VBOWuzSpw0R2WUtHhBtZ3s,TotalEnergies RACINE,"Rond Point, Boulevard Mohammed Zerktouni, Casablanca",33.59061630000001,-7.6359808,4.2,52.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJU98WTcHSpw0R8uWCjXAktOg,Shell Station,"Boulevard Brahim Roudani, Casablanca",33.577723,-7.637704999999999,3.4,36.0,OPERATIONAL,"gas_station, convenience_store, food, point_of_interest, store, establishment",Shell
+ChIJvXctDY3Spw0RzNPKfQhSiws,SOMAP,"H9W9+766, Boulevard Ziraoui, Casablanca",33.5956671,-7.631987099999999,3.2,46.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Somap
+ChIJV2L7Er3Spw0RYebOyQCOrR4,Station d'essence Shell Feth,"H9JG+X89, Casablanca",33.5824169,-7.6241523,3.8,52.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJOeeoRr3Spw0Rbcca90kBdi0,Station-service Winxo,"H9MG+5MX, Casablanca",33.582975,-7.623269199999998,2.3,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJ1bkBsZXSpw0RMj6gZ3QlfNU,Station Petrom,"H9PC+954, Casablanca",33.58588,-7.6295405,3.7,24.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJc4lv257Spw0RmxJSXM0vbxE,Winxo,"H9QM+4MC, Casablanca",33.5878108,-7.6158703,2.3,7.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJD3GJxZTSpw0RODtAbjIEe8M,Winxo,"H9P8+RXV, Boulevard Mohammed Zerktouni, Casablanca",33.58711869999999,-7.6325664,2.5,13.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJUwLYCKDSpw0Rmw8Kksfyni4,Station Service Afriquia,"Boulevard de la Résistance, Casablanca",33.5838726,-7.611736100000001,3.5,78.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJkyp_OIPSpw0R2y2a7_gT_-g,Total Maroc (Standard),"Sidi Belyout Quartier Alsace Orraine Boulevard Zer, Nador, Casablanca",33.596457,-7.615478,1.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJY06JtY3Spw0Reg1eaFXzmoA,TotalEnergies El Ghouroub gas station,"61 Boulevard de Bordeaux, Casablanca",33.5972477,-7.629022099999999,3.6,16.0,OPERATIONAL,"gas_station, car_repair, point_of_interest, establishment",TotalEnergies
+ChIJfRKesWvTpw0RolsECaAymmA,Station de Service Winxo,"H9X9+FGR, Boulevard de Bordeaux, Casablanca",33.5987497,-7.6312263,3.0,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJGwcu7FjNpw0RoxweVcxWdhY,Station Winxo,"H9GR+X35, Casablanca",33.577377,-7.609767999999999,2.8,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJDeHjb_PSpw0RKCyOKBgVR1E,TotalEnergies ALMA,"185 Boulevard de Bordeaux, Casablanca",33.5992704,-7.635187699999999,4.3,83.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJj6dByCrNpw0Rii4DLboGXGo,OLA ENERGY DAKAR,"Place Dakar, Casablanca",33.589895,-7.603979,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ_21AIvPNpw0R4xTu8_1xLd0,OLA ENERGY LYON,"1 Rue Bachir AL Ibrahimi, Casablanca",33.589905,-7.603961999999999,3.5,11.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJXZDFV_XSpw0RdjtCwgS20Bc,Shell,"Boulevard Moulay Youssef, Casablanca",33.6016807,-7.633137199999999,3.6,54.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJUZVX8RXNpw0RrR7QsLtsFWA,Shell,"Boulevard Mohammed VI, Route, Mediouna",33.5827675,-7.603913300000001,3.2,39.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJb575Gm_Npw0RAiCTV1XIpUo,Station Shell,"Boulevard Emile Zola, الدار البيضاء",33.585938,-7.584405999999999,3.9,36.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJk21m1ATNpw0R0ufOIrTUF50,Station Shell,"Boulevard Moulay Ismaïl, Casablanca",33.5982359,-7.5759235,3.8,37.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJx-Vy0UHNpw0Ruqgw3H8vBPo,Station Service Afriquia,"Centre Commercial, Rue du Sergent Azdam Driss, Boulevard Ibn Tachfine, Dar-el-Beida",33.585151,-7.592725299999999,3.0,78.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJuw_qHmrNpw0RC2gySKLXNMQ,OLA ENERGY BOULHAUT,"et Rue d'ifni, Boulevard Ibn Tachfine, Casablanca",33.586972,-7.594766,4.3,12.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ1aTKo-7Npw0RBJ4sldV3GTg,Station petrom Pierre fond,"HCR4+37, Casablanca",33.5901491,-7.5943741,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJ8Z9HrY3Npw0RxvwwgTOr4bM,Shell,"Bd Ba Hmad, Angle Rue Planquette, Dar-el-Beida",33.59387299999999,-7.587734,1.5,4.0,OPERATIONAL,"gas_station, convenience_store, point_of_interest, food, store, establishment",Shell
+ChIJHSqpW2jNpw0RwZUARn8Hl7k,Station-service Shell,"Boulevard Ibn Tachfine, Boulevard Mohamed V, Casablanca",33.5876554,-7.5987377,3.8,20.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJnxtioELNpw0RvQPB0DWqm_M,Station Winxo,"HCP2+569, Casablanca",33.5854073,-7.599389400000001,4.2,6.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJW-K7xG3Npw0RW3Di9WpuhXw,TotalEnergies AL AMAL,"Km 42, Boulevard Emille Zola, Route Azemmour, Casablanca",33.59506749999999,-7.594423999999998,3.8,44.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ8ygft-bNpw0Rs2_XmuvS5FE,Afriquia LA GIRONDE,"Rond-point, Boulevard Ifni, Place Al Khaibar, Dar-el-Beida",33.5839644,-7.599175600000002,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ4d60OoHNpw0RuOH-aABCvfs,Station service Shell AlYassir (Electrique véhicule),"N1, Casablanca",33.5929405,-7.598493599999998,2.5,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJxX5DM2bNpw0Rfzbff9zsVfM,Station Petrom,"14 Rue Capitaine Bousserghine Hammadi, Casablanca",33.5880026,-7.602058199999998,3.7,12.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJzVBf2W_Npw0RCsVJJ97dH-0,Shell,"19 Avenue Pasteur, Casablanca",33.596392,-7.598668999999999,3.3,11.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJM1H84VzNpw0RUnLwuF1WBUg,TotalEnergies MAMOUNIA,"Rue Bachir Ibrahimi, Casablanca",33.5825093,-7.602164499999999,3.6,55.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJD5vyBevNpw0RoVS_Ux-UZ5s,Shell,"Ambass B Aicha, Boulevard Zubayr Ibn Al Awam, الدار البيضاء",33.5991433,-7.590250099999999,2.0,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ285IWGXNpw0RnmrkBi8G2fI,Shell,"2 Avenue Pasteur, Casablanca",33.59575599999999,-7.601392699999999,3.5,25.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ2VpgU2TNpw0RLYkGqQ2WzTs,OLA ENERGY CENTRE CASA,"302 Boulevard Mohamed V, Dar-el-Beida",33.593372,-7.603381999999999,4.0,20.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJVe4oJw3Npw0R2HvXHYuF188,TotalEnergies ROCHES NOIRES,"Boulevard de l, Boulevard Moulay Slimane, Casablanca",33.599856,-7.588628599999998,3.9,54.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJzzUcLA7Npw0RXO6dlfHSOio,Station Oilibya,"Boulevard Amr Ibnou Ass, Casablanca",33.5980795,-7.5819343,3.8,31.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ_VeXpfXNpw0RPnmKTi7qIjA,Shell,"Route 1077 Boulevard de la Résistance, Casablanca",33.5938401,-7.603896,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJwx5UxwLNpw0Rtem9iIvol7g,Ola insustrie,"159 Boulevard Moulay Ismaïl, Casablanca",33.5980689,-7.5818482,3.5,6.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJW4Zgh_TNpw0RxzPJdv4nbPs,Winxo - Petrol station,"HCPF+3QR, Casablanca",33.58523479999999,-7.575604299999999,2.8,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJSQfN47jNpw0RTSdHKXWV--4,Station shell,"HCMQ+XQG, Boulevard Zouhair Mohamed Najjar, Casablanca",33.5849382,-7.560542700000001,3.9,7.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ51NFmdzMpw0R-nYX6ToDoEc,TotalEnergies DAR CHEMS,"Boulevard de la Grande Ceinture, Casablanca",33.5827436,-7.558814900000001,3.9,109.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJCSxZgxnNpw0RX-B6ilhiR_s,Shell,"Rue 35 Bloc Kodiat Im. B, Dar-el-Beida",33.589377,-7.566950999999999,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJy2-_dZXNpw0Rj0jyIyYcP2U,Shell station,"Boulevard Oqba Bnou Nafii, Casablanca",33.58042779999999,-7.5613591,3.8,15.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ1WnJ7NnNpw0RxabwkHCh694,Station PETROM el amane,"Daourat Mdakra, Casablanca",33.5804625,-7.563126699999999,4.0,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJwdnSF6TNpw0RvclWhIIW9jg,Station winxo وينكسو,Casablanca,33.5805516,-7.563727499999999,3.6,26.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJi4I0PNnMpw0R2oH4tdUoxRM,TotalEnergies Liberté,"345 Boulevard Oqba Bnou Nafii, Casablanca",33.5808449,-7.5643726,3.8,43.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ9xLWmOPMpw0Rmto8ow2wXqA,TotalEnergies ETTAJ,"Boulevard Ibn Al Ouanane, Rue Marinie, Casablanca",33.59559700000001,-7.5638082,3.3,27.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJP1ql1SjNpw0RJ906bMFOmzg,Station-service TotalEnergies Grande Ceinture,"Angle Boulevard de la Grande Ceinture, Casablanca",33.5889332,-7.545491099999999,3.7,29.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJvS7AmR3Npw0RMAyVtxaRWnw,Shell Gas station,"Boulevard Ibn Al Ouanane, Casablanca",33.5950589,-7.5691552,4.0,41.0,OPERATIONAL,"gas_station, point_of_interest, store, establishment",Shell
+ChIJ0zqwtc3Npw0R6VKLJPmZ0rg,Afriquia GRANDE CEINTURE I,"120 Boulevard de la Grande Ceinture, Casablanca",33.5941606,-7.5451923,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJmaVNXdfNpw0RIfLBhNuIjgk,OLA ENERGY INDUSTRIE,"159 Boulevard Moulay Ismaïl, Casablanca",33.6012244,-7.5622798,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJKf4fwwLNpw0RPSxSt8Kz6mQ,Afriquia MOULAY ISMAIL,"Cidana Ex Usine De Cirage, Boulevard Moulay Ismaïl, Dar-el-Beida",33.5996046,-7.569962799999999,3.6,84.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJvwfuUADNpw0RictXzElDQJQ,Station maritime ola,"HFQ5+VF7, Casablanca",33.5896607,-7.541314,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ1fQLujLNpw0RHZw6pY6YEuQ,TotalEnergies Route de Rabat,"JF32+52G, Casablanca",33.602943,-7.5499078,4.6,56.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ4WMc0gDNpw0R6RGazQfE7h4,petromin,"JF23+JPF, Boulevard de la Grande Ceinture, Casablanca",33.6015691,-7.5456957,4.4,11.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJQcwWs8TLpw0RNXKb2aka6q8,Petromin Gas Station,"Res.saada, الدار البيضاء",33.5882675,-7.5240858,2.8,13.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJNUWtPgDNpw0RMdCRf3bpTiI,Station Winxo,"Ann.panoramiq, الدار البيضاء",33.5843757,-7.529052600000001,3.0,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJQ4Zuoe_Lpw0R67BzbLGAG4k,Afriquia ATACADAO AIN SEBAA,"Boulevard de Makro, Casablanca",33.5967534,-7.522888900000001,4.5,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJef-W8pvMpw0RhNTXhu9YWC0,Station Service Afriquia,"Route de Chabbou, Casablanca",33.5965325,-7.530763499999998,3.7,59.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ0WxJ0uDNpw0RvBtmLY403Lo,Petrofan Oils Station,"Boulevard Al Adarissa, Casablanca",33.5825353,-7.537090299999999,4.8,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrofan
+ChIJZU4NWQDNpw0RE5j7HHkUdsQ,Afriquia tafraouti,"HFH8+FCV, rue Ghiriane, Casablanca",33.5787383,-7.533962900000001,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJrQKspoLMpw0RUCiRTD_2hT8,Station Shell Sidi Moumen,"JF2F+VX8, Casablanca",33.6021706,-7.525039,3.6,25.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJBbSLy2TLpw0R1Hd2jbe7Zd8,OLA ENERGY ZOO,"Boulevard Mohamed El Yazidi, Casablanca",33.601426,-7.51757,3.5,33.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJdWkXnYPMpw0RAyU9cd2--EQ,Shell,"Km9, Km9 Route de Rabat, Casablanca",33.603736,-7.529539999999998,3.4,34.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJ9RzZiz7Lpw0RqPF7JC9_fbo,Station Service Afriquia,"Anassi, Boulevard Mohamed Zefzaf Quartier, Casablanca",33.5885465,-7.498778799999999,3.5,280.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJT2f_dgDLpw0R7F3H61n8j9Y,Station Afriquia,"HGR8+PP, Casablanca",33.59186249999999,-7.4831653,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJRQTVLwDLpw0RKMLwkyd9HoY,Station Petromin Oil,HFHX+8M9,33.5782999,-7.5007544,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJrfLDNFPLpw0RJ2t_t0MNWV4,Station Service Petrofib,"1015 Boulevard Ahl Loghlam, Casablanca",33.5986827,-7.500953699999999,3.7,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrofib
+ChIJ71yKDhPLpw0RI84SfEPTmkc,Petromin,"HFXX+GMR, Casablanca",33.5988669,-7.500861599999998,4.2,30.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ9TEoz43Lpw0R_t8zbWjFgwo,Station Service Afriquia,"Salam, 2 Rte National 9, Casablanca",33.5796424,-7.4813677,4.6,13.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJvbsaNLnLpw0RTOFBd0eFT98,Station Service Afriquia,"Route Nationale 9 Entre Ain Harrouda Et Tit Mellil, Dar-el-Beida",33.5912883,-7.474100099999999,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJfa_EMADLpw0R7G-AszLl5WU,Afriquia AL AZHAR,"Boulevard Mbarek Ben Boubker Hammadi, Casablanca",33.6044164,-7.4925848,3.6,25.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJC9LDCc7Lpw0RVu0iG761HEs,Shell,"N9, Casablanca",33.5939945,-7.472885199999999,4.1,158.0,OPERATIONAL,"gas_station, cafe, restaurant, food, point_of_interest, store, establishment",Shell
+ChIJaaKaSD7Lpw0R-JSS8GVVOpU,Afriquia CHELLALAT,"+000 Commune Chellalate, N9 Rr N°3006 ,Km 4, Dar-el-Beida",33.602137,-7.467414900000001,3.8,51.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJnfb0VwDTpw0R9vwj5X6QSQo,Somap,"J94F+J5Q, Casablanca",33.60646090000001,-7.626724500000003,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Somap
+ChIJPRKD0wvNpw0RHZ9Ksc8sAno,Shell,"Boulevard de l, Boulevard Moulay Slimane, Dar-el-Beida",33.6035736,-7.579847999999999,3.0,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJXzygIADNpw0Rl6CObmfwJzU,Station winxo,"JC7V+85W, Boulevard Moulay Slimane, Casablanca",33.613326,-7.556379000000001,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Winxo
+ChIJRUUPbADNpw0RbguR23ITAXY,Station Petrom ANP,"Lotissement Gharnata, 8 Allee Des Parcs, Casablanca",33.61401869999999,-7.563231599999998,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJ2dpNGb7Npw0RIe4RNpUV9Yo,Shell,"82 Boulevard Moulay Slimane, Casablanca",33.6107773,-7.562346799999998,3.9,11.0,OPERATIONAL,"gas_station, store, point_of_interest, establishment",Shell
+ChIJhX4A7FXMpw0RoJxKnRaFJaE,Station Service Afriquia,"Boulevard Moulay Slimane, Casablanca",33.6108424,-7.5634504,3.1,18.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ-8UrLvjMpw0RZ0iGdCrDftY,TotalEnergies ZI AIN SEBAA,"Q.I Oukacha, Rue El Haouza, Casablanca",33.608013,-7.557900399999999,3.8,35.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJv2vLc-TNpw0RENfG_u8jlOk,Station Service Afriquia,"N1, Km 7 Route de Rabat, Dar-el-Beida",33.60392289999999,-7.5475017,3.6,70.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJcb93uFHNpw0RF6vck8CTHOw,Station Service TotalEnergies Route de Zenata,"JF95+CHJ, Casablanca",33.6185765,-7.541121200000001,4.1,21.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJ5w6HBwDNpw0RxrxbUBg0d6c,Top Petrole (Siège Social),"JF44+CFF, Allée des Orangers, Dar-el-Beida",33.6060605,-7.5438388,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Top Petrol
+ChIJy6Unx4zMpw0RsASwuBHIEKQ,Station Winxo,"JF33+HR8, Boulevard Moulay Ismaïl, Casablanca",33.6039126,-7.5454241,2.9,16.0,OPERATIONAL,"gas_station, car_wash, car_repair, point_of_interest, establishment",Winxo
+ChIJMxr56ozMpw0RgNdl9kBB2O0,TotalEnergies AIN SEBAA,"Pk 7, Route de Rabat, Casablanca",33.6039605,-7.544866400000002,3.9,61.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJX_iBI4zMpw0REtp-CFumaBk,STATION SHELL TARIK ESSALAMA,Casablanca,33.6039935,-7.5414776,3.4,50.0,OPERATIONAL,"gas_station, car_wash, car_repair, point_of_interest, establishment",Shell
+ChIJi6gwPgDNpw0RlXGBrPEdvFE,Top petrol siège,"1er etage appt N° 5, imm business centre yasmina, Route de Rabat, Casablanca",33.60442619999999,-7.540954599999998,5.0,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Top Petrol
+ChIJCYmXmgzNpw0Rjx6F7-U0ayw,Station service PETROMIN Ain Sebaa,"JF79+P79, Casablanca",33.6142792,-7.531769300000001,2.5,4.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ6Qi1YgbLpw0RqKonskkqBOI,TotalEnergies,"JF5G+CV9, Route de Rabat, Casablanca",33.6085422,-7.522780099999998,3.7,6.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJm9WU8H7Lpw0R8QddDfIaCSY,Station Shell,"Km 9, National Route 1, 400 Route De Mohamadia, Dar-el-Beida",33.6089884,-7.521550499999998,3.9,51.0,OPERATIONAL,"gas_station, convenience_store, food, point_of_interest, store, establishment",Shell
+ChIJvcDeYgDLpw0RNY7VLJ_0Lew,Station petrom,"JF5H+MGP, Casablanca",33.60920409999999,-7.521158799999998,3.6,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJ96Q87SLNpw0RymwdDDZjPaU,Petromin oils,"JFCC+PF3, Casablanca",33.6220217,-7.528099699999999,3.3,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJf2GvGDLNpw0R8TK7gJJL4fM,Petromin oils 2,"JFC9+5GJ, Casablanca",33.62083539999999,-7.531775,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJHYPuL3vMpw0R1O3VFLE0GG8,Station shell,"R322 Route De Mohamadia, الدار البيضاء",33.6193651,-7.5350729,3.6,48.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJZaoC93vLpw0RlMV_r0RpfoU,Station Service Petromin Oils,"JF4J+F9J, Casablanca",33.6062054,-7.5190986,4.1,57.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ55yRpkfLpw0RAvPznqWCxjY,Station-service Afriquia Chefchaouni,"Douar Zaouit Ait Lahcen Oubraym Oulad Berhil-lamhara, Boulevard Chefchaouni, Dar-el-Beida",33.6211753,-7.5118266,3.9,27.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ42lCBpvLpw0RtGYwTVxWeJ4,OLA ENERGY JET,"Boulevard Chefchaouni, Casablanca",33.6209,-7.511368000000003,3.9,26.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJvYCKI5jLpw0RsRGUkZskvE4,PETROM AIN SEBAA SIDI BERNOUSSI,"General 1, Casablanca",33.62805199999999,-7.516122999999999,4.5,13.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJu8bz9DDLpw0RvCc5GvajlYU,OLA ENERGY BENLAMLIH,"Boulevard Chefchaouni, Casablanca",33.622011,-7.509333,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJfzlVrZ_Lpw0REyMPrw0VQiU,Afriquia EL BERNOUSSI,"N°, 1 Route de Rabat, الدار البيضاء",33.6154883,-7.505680499999999,3.4,98.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJY9-Llp_Lpw0RBGOpWUVdzos,Petromin,"JF8W+48M, N1, Casablanca",33.6153256,-7.504208799999999,3.7,31.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJBTQjvmfLpw0R0ahfmArmEyU,Petromin Oils,"JG69+QGX, Casablanca",33.6119824,-7.4811553,3.2,21.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ9ypZ0vXLpw0RJTy6QKGQSVs,Station service PETROMIN,"JG39+X6X, Casablanca",33.6049876,-7.481887700000001,2.3,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJ5zNoniLLpw0RL8KqOgoF7_c,Station Shell Etoile,"JG8F+F7V, Casablanca",33.61679660000001,-7.476890999999999,3.9,109.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJoZ7GkznLpw0RdWYEO62rIEo,Petromin Oils Bernoussi,"JGG8+CX7, Casablanca",33.62604499999999,-7.482591299999999,1.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJvSxsTPXKpw0Ry2ENnzPdlzs,Station Service Shell,"JG8R+32R, N9",33.6152282,-7.459985,3.8,97.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJE4nFGhrLpw0R29ceRPkNcBY,Station Service TotalEnergies,"Province de Sidi Bernoussi, Rte de Berrechid, تيط مليل",33.6206614,-7.457184899999999,4.6,15.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJOQGGq2rLpw0RPtTjMIO62QE,Station Total,"Rte N 9 Commune Chellalate, Mohammedia, Aïn Harrouda",33.62224,-7.454937899999999,4.5,11.0,OPERATIONAL,"gas_station, finance, point_of_interest, establishment",TotalEnergies
+ChIJZajTiQDLpw0Rx0ApG8Wsi5M,OLA ENERGY OIL VERT,"Douar Ouled Sidi Ali Chtaiba, Mohammédia",33.621734,-7.453385,4.3,11.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJfYjAKQDLpw0RlEGZibiodyU,Station Service Afriquia IKEA Zenata,"municipalité De, A101 Ville Nouvelle Dezenata (Ikea, Aïn Harrouda",33.62814420000001,-7.461619899999999,4.0,85.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJIXnSOI-1pw0RjmeSGoWTJKM,COLAS EMULSIONS BLED SOLB,"JHG9+86H, P3002, Âïn-Harrouda",33.6258144,-7.431905299999999,3.6,5.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJ4xkKsWO1pw0RxZsBc0RLA-E,Station Shell chellalat,Âïn-Harrouda,33.6249735,-7.437150399999999,3.9,15.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJcxhRCmvLpw0R2W5C-JBeBJw,Shell,"Commune Rurale D'echalalate, P3002, عين حرودة",33.62374999999999,-7.439166999999999,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Shell
+ChIJyXMMfgDLpw0RIMFf20Oeoq4,Station Service Yoom,"JHG5+V7J, Âïn-Harrouda",33.6275226,-7.4422114,5.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Yoom
+ChIJY_vLxYi1pw0Rd1xQNe2QaI0,TotalEnergies Cascades,"JHJF+M8Q, P3002, Âïn-Harrouda",33.6317003,-7.426656199999999,4.0,1.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJof28fDTLpw0RdGMIIdypMoA,Afriquia ZENATA,"Entrée Vers Mohammedia Zenata, Route des Zenata, Dar-el-Beida",33.6417935,-7.495522099999999,3.1,8.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJ0X0qH2rKpw0RpaQVfjUcm0o,Station Service Petromin Oils,"JGMR+9P8, Âïn-Harrouda",33.6334177,-7.458174499999999,4.1,25.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJFfWqD2zKpw0RuQUhJsvgM_Q,Station Service Afriquia,"Croisement Route Nationale, N1, N1 Et Boulevard De La Palestine, Aïn Harrouda",33.6342535,-7.4538557,3.8,124.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Afriquia
+ChIJe6Thu23Kpw0RMxvNqPY-VFI,Station Oilibya,"JGPX+3PM, N9, Aïn Harrouda",33.6352184,-7.4507136,1.5,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJK9v0MPPLpw0RLtWEvuBUSZg,OLA ENERGY,"National Route 1 Route de Casa, Aïn Harrouda",33.63526340000001,-7.4506203,,,OPERATIONAL,"gas_station, point_of_interest, establishment",Ola Energy
+ChIJRT4xlW3Kpw0RpBcnHpZLdqs,TotalEnergies AIN HARROUDA,"N1, Aïn Harrouda",33.6348945,-7.4502161,3.8,237.0,OPERATIONAL,"gas_station, point_of_interest, establishment",TotalEnergies
+ChIJH7W32MvLpw0RI8oGsxl4OTY,Station petrom,"N 1, Km 15, Âïn-Harrouda",33.6326207,-7.470869800000001,3.0,3.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petrom
+ChIJ-yL-yV-1pw0RKRTem-EATtY,Station Service Petromin Oils,"JHWJ+WQ, Âïn-Harrouda",33.6473125,-7.4180625,3.5,2.0,OPERATIONAL,"gas_station, point_of_interest, establishment",Petromin
+ChIJC4eeakO1pw0RcPDYZ65AuoQ,Shell,"1 Route Principale De Rabat, عين حرودة",33.6513056,-7.4123831,,,OPERATIONAL,"gas_station, convenience_store, store, point_of_interest, food, establishment",Shell
