@@ -205,6 +205,7 @@ function go(id){if(id==='screenContribute'&&!authToken)id='screenAuth';document.
 
 function toast(m,t='info'){const e=document.getElementById('toast');e.textContent=m;e.className=`toast ${t} show`;setTimeout(()=>e.classList.remove('show'),3000)}
 function popPts(p){const e=document.createElement('div');e.className='points-pop';e.textContent=`+${p}`;e.style.cssText='left:50%;top:40%;transform:translateX(-50%)';document.body.appendChild(e);setTimeout(()=>e.remove(),900)}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('/app/sw.js')}
 </script>
 </body>
 </html>
